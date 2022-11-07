@@ -2,3 +2,22 @@
     background-color: aqua;
 }
 
+.container-1 {
+     background-color: gray;
+}
+
+.container-2 { 
+    background-color: red;
+}
+
+.container-3 {
+    background-color: blueviolet;
+}
+
+.container-4 { 
+    background-color: cadetblue;
+}
+
+footer {
+    background-color: cornflowerblue;
+}
