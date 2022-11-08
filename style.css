@@ -1,23 +1,89 @@
+body {
+ 
+}
+
+/* Block 1 below - Body above */
+
 .header {
-    background-color: aqua;
+    background-color: #1F2937;
+    display: flex;
+}
+
+.header-text {
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 .container-1 {
-     background-color: gray;
+    background-color: #1F2937;
+    display: flex;
 }
 
+h1 {
+    font-size: 48px;
+    font-weight:bolder;
+    color: #F9FAF8;
+}
+
+ul {
+    display: flex;
+    color: #F9FAF8;
+    text-decoration: none;
+    list-style-type: none;
+    gap: 10px;
+}
+
+.secondary-text {
+    color: #e5e7eb;
+}
+
+/*Above this comment is Header and and Block-1 related CSS */
+
+
 .container-2 { 
-    background-color: red;
+    background-color: white;
 }
 
 .container-3 {
-    background-color: blueviolet;
+    background-color: #e5e7eb;
 }
 
 .container-4 { 
-    background-color: cadetblue;
+    background-color: white;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    text-align: center;
+    width: 400px;
 }
 
 footer {
-    background-color: cornflowerblue;
+    background-color: #1F2937;
+}
+
+
+
+.block-3-img {
+    width: 100px;
+}
+
+
+/* Attempting to Manipulate image size seperately having trouble figuring out how to do that 
+Update I had thought that my classing with each img didnt work but it actually did
+I had just forgotten to save the html page. Cannot apply changes in css if you do not
+save your html first.*/
+
+.image-container {
+    width: 100px;
+}
+
+/*
+img {
+    width: 100px;
+}
+*/
+
+.imageone {
+    width: 200px;
 }
